@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+					<!--When does an agile approach fit best and when would it not fit?
+					How do you design an agile team? 
+					What are the skills or personality of an effective team leader/scrum master?
+					How is working in a agile project different than a different development approach project? Good/bad
+					How do you balance multiple agile projects?
+					How and when would you bring in full system tests, or user experience testing
+					Concepts of minimum viable product and startup models based on this-->
+
+
+				<section>
+					<h1>Agile and Things</h1>
+					<h3>How the Communitech Apps Factory Builds Applications</h3>
+				</section>
+
+				<section>
+					<section>
+						<h2>Introduction</h2>
+
+						<p><small>I'll be brief</small></p>
+					</section>
+					<section>
+						<h2>Who am I?</h2>
+						<p>Just some guy with an opinion.</p>
+						<br /><br />
+						<small>Arguably a knowledgable opinion, but you be the judge.</small>
+						<!--<p>I've been developing in a professional context starting in 1994 with a high school co-op.</p>
+						<p>Mostly web, but including forays into native mobile.</p>-->
+					</section>
+					<section>
+						<h2>What is the Apps Factory?</h2>
+
+						<p>
+							We help people with ideas but no technical resources learn the application development process (not how to develop) and help them make steps to a finished application.
+						</p>
+					</section>
+					<section>
+						<h2>How we work</h2>
+						<p><small>some of this may not make sense yet</small></p>
+						<ul>
+							<li>daily standup</li>
+							<li>kanban board</li>
+							<li>weekly sprints with builds deployed on Thursdays</li>
+							<li>open-source github based workflow</li>
+							<li>coming soon: Continuous Integration</li>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Methodologies</h2>
+						<p>
+							Methodologies are a formal way to describe what needs to be built and to track where in the building process a project is.
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Predictive</h2>
+						<p>Define everything up front, 
+							<br />figure out how long it will take, 
+							<br />do it.</p>
+					</section>
+					<section>
+						<table>
+							<tr>
+								<td>
+									<h2>Pros</h2>
+									<ul>
+										<li>Expectations clearly set on all sides.</li>
+										<li>Timelines, budgets, resource needs understood.</li>
+										<li>Works extremely well for typical, repeatable processes</li>
+									</ul>
+								</td>
+
+								<td>
+									<h2>Cons</h2> 
+									<ul>
+										<li>Rigid, changes can really complicate things.</li>
+										<li>Estimating sucks and everyone sucks at it.</li>
+										<li>Unknown complications are commonplace.</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Adaptive</h2>
+						<p>Figure it out as it happens.</p>
+					</section>
+					<section>
+						<table>
+							<tr>
+								<td width="50%">
+									<h2>Pros</h2>
+									<ul>
+										<li>Figure out what is most important *now*. </li>
+										<li>Priorities change as requirements change.</li>
+										<li>Works extremely well for experimental, exploratory, custom projects</li>
+									</ul>
+								</td>
+
+								<td>
+									<h2>Cons</h2> 
+									<ul>
+										<li>Unexplored dependancies can result in fragile systems.</li>
+										<li>Timeline ($$) can be very unpredictable.Rigid, changes can really complicate things.</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</section>					
+				</section>
+
+				<section>
+					<h2>"Agile" is an umbrella term for adaptive methodolgies.</h2>
+					<p>It was defined in 2001*, but the concepts have been around much longer then.</h2>
+					<p><small>* http://agilemanifesto.org/</small></p>
+				</section>
+					
+				<section>
+					<h2>Kanban</h2>
+					<p>Focus on visualizing project state and respecting focus (WIP)</p>
+				</section>
+
+				<section>
+					<h2>Extreme Programming (XP)</h2>
+					<p>Pair Programming, Continuous Process, TDD</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Scrum</h2>
+						<p>Subjectively speaking, this is clearly the best-known Agile Methodology and the team makeup and artifacts most typically associated with Agile are primarily from Scrum.</p>
+					</section>
+					<section>
+						<p><small>This distinction is especially important to a small subset of very particular employers.</small></p>
+						<p><small>Don't put "Agile" on a resume unless you have actual experience with more than one, and if you do, name each one and be prepared for the dreaded "Compare and Contrast" question. If you have no actual experience, just put "Scrum" then when asked about it just say "oh we had a pretty weak implementation and mostly just did standups and used Trello.</small><p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Scrum Team Members</h2>
+						<ul>
+							<li>Product Owner</li>
+							<li>Team</li>
+							<li>Scrum Master</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Product Owner</h2>
+						<ul>
+							<li>One per team</li>
+							<li>The client, or an advocate for the client.</li>
+							<li>Fills backlog, sets priority.</li>
+							<li>Often Project Manager, but not in the ideal case.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Team</h2>
+						<ul>
+							<li><i>n</i>, typically 5-7</li>
+							<li>Makes things</li>
+							<li>Cross functional, depending on project needs (dev, design, qa, writing, etc)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Scrum Master</h2>
+						<ul>
+							<li>1 per team</li>
+							<li>Facilitator. Keeps process running, removes blocks.</li>
+							<li>No managerial authority</li>
+						</ul>
+					</section>
+					<section>
+						<p>On smaller teams, team members can and often do wear multiple hats. The only combination that is strongly frowned upon is someone acting as both Scrum Master and Product Owner, as they tend to represent opposing forces of nature.</p>
+					</section>				
+				</section>
+
+				<section>
+					<section>
+						<h2>Scrum Artifacts</h2>
+						<p><small>A Very Small Subset</small></p>
+						<ul>
+							<li>Scrum ("Standup")</li>
+							<li>Kanban Board</li>
+							<li>Sprints</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Standup</h2>
+						<ul>
+							<li>every day, at a predictable time with a fixed length.</li>
+							<li>everyone talks: What I did yesterday, <br />What I'm going to do today, What is blocking me.</li>
+							<li>kanban board is updated</li>
+						</ul>
+						<p>In multi-team organizations reps from <br />each team do standups, "Scrum of Scrums"</p>
+					</section>
+					<section>
+						<h2>Kanban Board</h2>
+						<p><small>Voted "Artifact Most Commonly Associated with Agile", 12 years running</small></p>
+						<ul>
+							<li>Cards traverse the board from backlog to complete, through columns representing different states, such as "To Do", "In Progress", "Testing", "Complete".</li>
+							<li>Offers central, visible project status available to everyone</li>
+							<li>Moving tasks across the board especially satisfying</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Sprints</h2>
+						<ul>
+							<li>Start by figuring out what is going to be built ("Sprint Planning")</li>
+							<li>Conclude by reviewing what was actually built, what went right and wrong ("Retrospective")</li>
+							<li>Product Owner has final say, is it done or not.</li>
+						</ul>
+					</section>					
+				</section>
+
+				<section>
+					<section>
+						<h2>Related Concepts</h2>
+						<p>There's a host of related concepts which are often times artifacts of specific Agile methodologies, but tend to get implemented willu-nilly</p>
+					</section>
+					<section>
+						<h2>Minimum Viable Product</h2>
+						<p>The most simple version of an application that solves the problem you think people will pay for you to fix.</p>
+					</section>
+					<section>
+						<h2>Continuous Integration</h2>
+						<p>Automatically test code (unit tests, style tests, whatever) and if it passes, automatically merge it into the mainline</p>
+						<p>Source control is a bit outside the scope of this stuff, but if you like to write software, create a github account and figure it out. Start at http://try.github.io</p>
+						<p><small>Also learn how to use your editor of choice with only keystrokes. So. Much. Better.</small></p>
+						<p><small>Also, have an editor of choice.</small></p>
+					</section>
+					<section>
+						<h2>Continious Deployment</h2>
+						<p>Continuous Integration taken to it's logical conclusion: If nothing breaks, automatically deploy it.</p>
+					</section>
+				</section>
+
+				<section>
+					<h1>Rob Drimmie</h1>
+					<h3><a href="mailto:rob@drimmie.net">rob@drimmie.net</a></h3>
+					<h3><a href="http://twitter.com/robdrimmie">http://twitter.com/robdrimmie</a></h3>
+					<h3><a href="https://github.com/rmdrimmie">https://github.com/rmdrimmie</a></h3>
+				</section>
+
+				<!--<section>
+					- Testing - 4 major buckets
+						- Unit *
+						- Integration
+						- System
+						- Acceptance *
+					* these are the ones most startups and small teams care about
+
+					- Unit
+						- Does the code work?
+						- For deeply important functions, ideally every possible branch and parameter (including bad ones) should be tested.
+						- For most projects, 70-80% is fine.
+						- Before or after is up to the team
+						- New test for every filed bug
+
+					- Integration
+						- Tests how systems interact, eg
+							- internal functionality not exposed to unauthenticated users
+							- software that depends on changed API continues to run
+
+					- System testing
+						- All the moving pieces. 
+						- Backups
+						- Failsafes
+						- etc
+
+					- Acceptance testing
+						- The user agrees it is awesome. 
+
+					- Usability
+						- Arguable the single most important part of any application
+						- Not just end users (though mostly). APIs can be usable or not.
+						- 
+
+					- What's Important
+						- Have a process. Structure your development in *some* fashion and you'll be miles ahead.
+						- Automated tests. Regressions suck for everyone.
+						- Talk, frequently. Bad things occur when creatives go dark.
+						- Show your work. Show off awesome things, get help with hard things, everyone benefits.
+				</section>-->				
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
