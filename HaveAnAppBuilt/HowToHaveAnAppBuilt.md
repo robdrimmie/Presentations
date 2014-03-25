@@ -34,9 +34,13 @@ Introduction:
 - introduce self, talk briefly about the apps factory.
 Good morning. Thank you so much for having me.
 
-My name is Rob Drimmie. I am a developer, and for the past three years I’ve been running a program at Communitech called the Apps Factory. Communitech is a not-for-profit with the mandate to help tech companies Start, Grow and Succeed. Through the Apps Factory, I work almost exclusively with people who are exploring an idea they have had for an application. In general, these people are non-technical and have never been part of a development project, so most of what I do is guide and educate people through the early steps of the development process with the hopes that they part ways with us with the knowledge they need to be comfortable and successful.
+My name is Rob Drimmie. I am a developer, and for the past three years I’ve been managing a program Communitech called the Apps Factory. 
 
-And that is all I am going to say about the Apps Factory. If you have any questions about it specifically I love talking about it but really want I want to do is spend my time on one process that can be followed.
+Communitech is a not-for-profit organization in Waterlo with the mandate to help tech companies Start, Grow and Succeed. 
+
+Through the Apps Factory, I work almost exclusively with people who are exploring an idea they have had for an application. In general, these people are non-technical and have never been part of a development project, so most of what I do is guide and educate people through the early steps of the development process with the hopes that they part ways with us with the knowledge they need to be comfortable and successful.
+
+And that is all I am going to say about the Apps Factory. If you have any questions about it specifically I love talking about it but really want I want to do is spend my time on our process and how you can follow it with or without us.
 
 An important assumption about the content here is that you are looking to outsource the project to a typical client services development agency.
 
