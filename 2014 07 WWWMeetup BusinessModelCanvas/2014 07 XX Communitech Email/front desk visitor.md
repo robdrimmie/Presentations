@@ -1,0 +1,14 @@
+
+- front desk visitor data from July 2013 to March 2014 was lost
+- mac support for staff and tenants is poor, my guess is linux is worse - emails about new services or offerings rarely mention non-Windows systems
+- recent engagement with Virtual Causeway for php development resulted in our customers passwords being stored in plain text as a field in Salesforce and horribly written php
+- Communitech app exists for BB10, is not promoted and I’d bet not used
+- efforts like Homebrew/Made In Waterloo, calendering/office hours app for SSG, etc that I have been proximate to but end up dying on a vine somewhere
+- anyone with a Windows computer complains about it. Every day. 
+- the Bus Factor, and general disaster recovery. How long would it take to recover if the bus randomly picked any person from Organimi? If a giant bus took the entire Hub out on a Monday morning at 8:40am how does Avvey rebuild the organization?
+- rumours of a new news site doing things
+- Huddle, Box, etc
+- overlapping future projects such as tools to create connections (eharmony-like matchmaking systems), dashboards, etc
+- having a BES server will eventually allow us to use BBM on our desktops. A few months ago we were encouraged to install an IM client. Does anyone use that who wasn’t already using IM? Has anyone moved from BBM on their phones to it? 
+- custom work wiring together salesforce and campaign monitor because it would be cheaper than $100/mo service? if outsource team is $50/hr, that’s 24 hours of work each year until it become cheaper to pay
+- emails eg support@cdmn.ca . several old af emails still being forwarded too.
